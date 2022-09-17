@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    line-height: 160%;
+}
+
+body{
+    background-image: url(assets/background.png);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #040404;
+}
+
+header{
+    height: 120px;
+}
+
+header div{
+    width: 120px;
+    margin: auto;
+    background: linear-gradient(90deg, #9572FC, #43E7AD, #E2D45C, #9572FC);
+    border-radius: 50%;
+    display: flex;
+    padding: 4px;
+    transition: transform.3s;
+    animation: RGB 1.5s ease infinite;
+    background-size:50% 10px;
+    animation-timing-function: linear; 
+}
+
+header div:hover{
+    transform: scale(1.1);
+}
+
+header div img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+main{
+    max-width: 580px;
+    width: 90%;
+    margin: 32px auto;
+    display: grid;
+    gap: 24px;
+}
+
+section{
+    color: white;
+    padding-bottom:8px;
+    padding-left:7px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #9572FC, #43E7AD, #E2D45C, #9572FC);
+    animation: RGB 2s ease infinite;
+    background-size:50% 10px;
+    animation-timing-function: linear; 
+}
+
+section div{
+    background-color: #2A2634;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
+    
+}
+
+section div:hover{
+    background-color: #312e39;
+}
+
+section h2{
+    letter-spacing: -0.47px;
+}
+
+section p{
+    letter-spacing: -0.18px;
+    color: #A1A1AA;
+}
+
+section ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.2em;
+    margin-top: 24px;
+}
+
+section ul li{
+    transition: transform .3s;
+}
+
+section ul li:hover{
+    transform: scale(1.1);
+}
+
+.list-film img{
+    border-radius: 8px;
+    width: 90px;
+}
+
+.list-books img{
+    border-radius: 8px;
+    width: 90px;
+}
+
+.list-music li{
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;   
+}
+/*********************************************************
+*****Animacões***********/
+@keyframes RGB{
+    0%{
+      background-position:0% 0%;
+    }
+    100%{
+      background-position:100% 0%;
+    }
+  }
