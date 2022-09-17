@@ -2,7 +2,7 @@
 
 > Trilha explorer
 
-- Projeto construíto baseado na Next Week Level
+- Projeto construíto baseado na Next Level Week
 
 ## Tecnologias usadas no projeto
 
