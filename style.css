@@ -87,6 +87,10 @@ section p{
     color: #A1A1AA;
 }
 
+.aviso{
+    margin-top: 15px;
+}
+
 section ul{
     display: flex;
     justify-content: center;
@@ -106,12 +110,11 @@ section ul li:hover{
 
 .list-film img{
     border-radius: 8px;
-    width: 90px;
+    width: 110px;
 }
 
 .list-books img{
     border-radius: 8px;
-    width: 90px;
 }
 
 .list-music li{
